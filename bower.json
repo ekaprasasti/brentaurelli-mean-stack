@@ -1,0 +1,26 @@
+{
+  "name": "ekaprasasti-portfolio",
+  "description": "belajar mean dari youtube",
+  "main": "server.js",
+  "authors": [
+    "Eka Prasasti"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "bootstrap": "^3.3.7",
+    "angular-route": "^1.3.15",
+    "angular-bootstrap": "^0.13.0",
+    "angular-resource": "^1.5.8",
+    "angular-animate": "latest"
+  },
+  "install": {
+  	"path": "client/libs",
+  	"sources": {
+        "bootstrap": [
+            "bower_components/bootstrap/dist/**"
+        ]
+    }
+  }
+}
